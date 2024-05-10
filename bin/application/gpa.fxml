@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Text layoutX="21.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GPA">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <TextField fx:id="sub4" layoutX="11.0" layoutY="195.0" prefHeight="26.0" prefWidth="69.0" promptText="sub4" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="sub1" layoutX="11.0" layoutY="75.0" prefHeight="26.0" prefWidth="69.0" promptText="sub1" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="sub5" layoutX="11.0" layoutY="235.0" prefHeight="26.0" prefWidth="69.0" promptText="sub5" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="sub3" layoutX="11.0" layoutY="155.0" prefHeight="26.0" prefWidth="69.0" promptText="sub3" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="sub2" layoutX="11.0" layoutY="115.0" prefHeight="26.0" prefWidth="69.0" promptText="sub2" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="sub6" layoutX="11.0" layoutY="275.0" prefHeight="26.0" prefWidth="69.0" promptText="sub6" styleClass="textgpa" stylesheets="@application.css" />
+      <Button fx:id="clacmath" layoutX="410.0" layoutY="272.0" mnemonicParsing="false" onAction="#clacgpa" styleClass="calcgpa" stylesheets="@application.css" text="Calc" />
+      <TextField fx:id="hour1" layoutX="93.0" layoutY="76.0" prefHeight="26.0" prefWidth="69.0" promptText="hour1" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="hour5" layoutX="93.0" layoutY="235.0" prefHeight="26.0" prefWidth="69.0" promptText="hour5" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="hour4" layoutX="93.0" layoutY="196.0" prefHeight="26.0" prefWidth="69.0" promptText="hour4" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="hour3" layoutX="93.0" layoutY="156.0" prefHeight="26.0" prefWidth="69.0" promptText="hour3" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="hour2" layoutX="93.0" layoutY="116.0" prefHeight="26.0" prefWidth="69.0" promptText="hour2" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="hour6" layoutX="93.0" layoutY="275.0" prefHeight="26.0" prefWidth="69.0" promptText="hour6" styleClass="textgpa" stylesheets="@application.css" />
+      <Label fx:id="labelsub" layoutX="344.0" layoutY="97.0" prefHeight="34.0" prefWidth="164.0" styleClass="labeltotal" stylesheets="@application.css" />
+      <Label fx:id="labelhour" layoutX="344.0" layoutY="137.0" prefHeight="34.0" prefWidth="164.0" styleClass="labeltotal" stylesheets="@application.css" />
+      <Label fx:id="labelavg" layoutX="344.0" layoutY="180.0" prefHeight="34.0" prefWidth="164.0" styleClass="labeltotal" stylesheets="@application.css" />
+      <TextField fx:id="Appre1" layoutX="182.0" layoutY="76.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="Appre2" layoutX="182.0" layoutY="116.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="Appre3" layoutX="182.0" layoutY="156.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="Appre4" layoutX="182.0" layoutY="196.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="Appre5" layoutX="182.0" layoutY="236.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <TextField fx:id="Appre6" layoutX="182.0" layoutY="276.0" prefHeight="26.0" prefWidth="69.0" styleClass="textgpa" stylesheets="@application.css" />
+      <Label fx:id="grade1" layoutX="272.0" layoutY="77.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="grade2" layoutX="272.0" layoutY="119.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="grade6" layoutX="272.0" layoutY="278.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="grade5" layoutX="272.0" layoutY="239.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="grade4" layoutX="272.0" layoutY="198.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="grade3" layoutX="272.0" layoutY="158.0" prefHeight="23.0" prefWidth="50.0" />
+      <Label fx:id="labelgpa" layoutX="344.0" layoutY="222.0" prefHeight="34.0" prefWidth="164.0" styleClass="labeltotal" stylesheets="@application.css" />
+   </children>
+</AnchorPane>

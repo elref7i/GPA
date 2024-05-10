@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.login{
+	-fx-background-color:#B6BBC4;
+	-fx-border-radius: 50px;
+	-fx-color:#B6BBC4;
+	
+	-fx-font-size:16px;
+}
+.signup{
+	-fx-background-color:#31304D;
+	-fx-border-radius: 50px;
+	-fx-text-fill:white;
+	-fx-font-size:16px;
+}
+.textuser, .pass{
+	-fx-border-color:#777;
+    -fx-border-width:0px 0px .5px 0px;	
+    -fx-focus-traversable:false ;
+    -fx-background-color:transparent;
+}
+
+.forgot{
+	-fx-background-color:transparent;
+	-fx-color:#B6BBC4;
+}
+.calcgpa{
+	-fx-background-color:#31304D;
+	-fx-border-radius: 50%;
+	-fx-text-fill:white;
+	-fx-font-size:16px;
+	-fx-font-weight: bold;
+	
+}
+.textgpa{
+	-fx-background-color:white;
+	-fx-border-radius: 10px;
+	-fx-border-color:black;
+	-fx-border-width:2px;
+}
+.labeltotal{
+	 -fx-text-fill: black;
+	-fx-border-color:white;
+	-fx-border-width:3px;
+	-fx-padding:5px;
+	-fx-font-weight: bold;
+}
+
